@@ -8,4 +8,9 @@ sublimerge
 
    | Name                                                                  | Category | Keywords (intended solution)              | Estimated Difficulty |
    | --------------------------------------------------------------------- | -------- | ----------------------------------------- | -------------------- |
-   | [SSRF challenge or not?](Bugku/Crypto/给你私钥吧.md)        | Crypto      | RSA           | ⭐⭐                  |
+   | [给你私钥吧](Bugku/Crypto/给你私钥吧.md)        | Crypto      | RSA           | ⭐⭐                  |
+
+### TSJ2022
+   | Name                                                                  | Category | Keywords (intended solution)              | Estimated Difficulty |
+   | --------------------------------------------------------------------- | -------- | ----------------------------------------- | -------------------- |
+   | [wgetshell](TSJCTF2022/wgetshell.md)        | Web      | wget           | ⭐⭐⭐⭐                  |
