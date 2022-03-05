@@ -44,7 +44,7 @@ app.get('/', function (req, res, next) {
 
 我们利用传入layout参数来覆盖原有的模板。
 
-模板路径在[main.js](chall/app.js)设置如下
+模板路径在[app.js](chall/app.js)设置如下
 ```
 app.set('views', path.join(__dirname, 'views'));
 ```
