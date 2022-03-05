@@ -3,7 +3,7 @@
 ### 绕过HAProxy ACL
 HAProxy是一个使用C语言编写的自由及开放源代码软件，其提供高可用性、负载均衡，以及基于TCP和HTTP的应用程序代理。
 
-查看[HAProxy配置文件](/chall/haproxy.cfg)
+查看[HAProxy配置文件](chall/haproxy.cfg)
 ```
 frontend http-in
     bind *:80
@@ -12,7 +12,7 @@ frontend http-in
 ```
 这一部分过滤掉了以/admin路径开头的请求。
 
-我们想要进入[路由配置](/chall/routes/main.js)
+我们想要进入[路由配置](WEB/chall/routes/main.js)
 ```
 router.post('/admin', function(req, res, next) {
 	var profile = req.body.profile
@@ -44,7 +44,7 @@ app.get('/', function (req, res, next) {
 
 我们利用传入layout参数来覆盖原有的模板。
 
-模板路径在[main.js](/chall/routes/main.js)设置如下
+模板路径在[main.js](chall/routes/main.js)设置如下
 ```
 app.set('views', path.join(__dirname, 'views'));
 ```
