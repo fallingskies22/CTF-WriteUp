@@ -1,9 +1,9 @@
 # CTF-WriteUp
-## 环境配置
+## Environment
 sublimetext （添加插件imagepaste）
 
 sublimerge
-## 完成题目
+## WriteUp
 ### Bugku
 
    | Name                                                                  | Category | Keywords (intended solution)              | Estimated Difficulty |
