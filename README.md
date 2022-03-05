@@ -1,8 +1,9 @@
 # CTF-WriteUp
 ## Environment
-sublimetext （添加插件imagepaste）
-
-sublimerge
+☀sublimetext （添加插件imagepaste）
+☀sublimmerge
+☀chrome插件markdownviewer
+[配置过程文档](Environment/config.md)
 ## WriteUp
 ### Bugku
 
